@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.app-shell {
+  padding: 4rem 8rem 0 8rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 48px;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.wordcloudWrapper {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.flex-container > .card {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  width: 15%;
+  box-shadow: 0 2px 5px 0 rgba(212, 212, 212, 0.90);
+  text-align: center;
+}
+
+.card__header {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.card__content {
+  padding: 14px;
+  /* height: ; */
+}
+
+.center-align { text-align: center; }
+table {background-color: #F8FAFE; width: 100%;}
+tr:nth-child(even) {background-color: #F8FAFE;}
+tr:nth-child(odd) {background-color: #FFFFFF;}
+th { border-bottom: solid thin #4d89ff }
+tr { border-bottom:  1px dashed #a3afc7; }
+td, th { padding-top: 10px !important; padding-bottom: 10px !important; }
+
+.row {
+  display: inline-flex;
+  width: -webkit-fill-available;
+  place-content: flex-end;
+
+}
+
+.row > * {
+  padding: 20px;
+}
+
+.row > .col-xs-4 {
+  float: left;
+  text-align: center;
+  align-self: center;
+  padding: 20px
+}
+
+.row > .col-xs-8 {
+  float: right;
+  text-align: center;
+  align-self: center;
+  padding: 20px
+}
+
+.logoimage {
+  height: 3rem;
 }
